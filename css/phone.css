@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+
+}
+#navbar ul li{
+    margin: 5px;
+    padding: 0px;
+
+}
+
+#navbar ul {
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.h-primary{
+    text-align: center;
+}
+#home{
+    height: 264px;
+    /* font-size: 12px; */
+    font-family: 'Open Sans', sans-serif;
+
+}
+#home::before{
+    height: 520px;
+    top: -251px;
+    
+}
+    
+#section-container{
+    top: 2px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#clints{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#contact{
+    top: 154px;
+
+}
+footer{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}

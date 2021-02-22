@@ -1,0 +1,19 @@
+#navbar{
+    font-size: 12px;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+}
+#home{
+    
+    font-size: 12px;
+
+}
+h{
+    font-size: 15px;
+}
+p{
+    font-size: 10px;
+}

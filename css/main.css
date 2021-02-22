@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 18px;
+    
+}
+#navbar::before{
+    content: "";
+    width: 100%;
+    background-color :#e0cece;
+    position: absolute;
+    z-index: -1;
+    height: 75px;
+
+
+}
+
+#navbar #logo{
+    margin: 6px 22px;
+    
+}
+#navbar #logo img{
+    height: 52px;
+}
+#navbar ul {
+    display: flex;  
+    font-family: 'Baloo Bhai', cursive;
+
+}
+#navbar ul li{
+    list-style: none;
+    margin: 5px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    border-radius: 23px;
+    padding: 2px 22px;
+    color: white;
+
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(168, 243, 174);
+    color: black;
+    
+    
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 51px 10px;
+    position: relative;
+    height: 224px;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:url("../images/bg1.jpg")no-repeat center center/cover;
+    background-size: 100%;
+    z-index: -1;
+    height: 373px;
+    width: 100%;
+    opacity: 0.7    ;
+
+  
+}
+
+/* services */
+
+#section-container{
+    position: relative;
+    top: 80px;
+}
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 3px 10px;
+    border-radius: 15px;
+    background-color: rgb(187, 173, 173);
+}
+
+.box img{
+    margin: 15px auto;
+    height: 145px;
+    border-radius: 5px;
+
+}
+#clint-section{
+    position: relative;
+    top: 140px;
+    height: 160px;
+}
+#clints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    
+
+}
+.clint-items img{
+    height: 50px;
+    margin: 2px 13px;
+}
+#contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 126px;
+
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    
+}
+#contact-box input ,
+#contact-box textarea {
+    width: 100%;
+    padding: 4px 4px;
+    border: 2px solid rgb(49, 47, 47);
+    border-radius: 3px;
+}
+footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    height: 34px;
+    top: 123px;
+    background-color:rgb(43, 40, 40);
+    color: white;
+
+
+}
+
+
+
+/* utility classes */
+.h-primary{
+    color: rgb(24, 22, 22);
+    margin: 6px 4px;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+    margin: 2px 4px;
+}
+.btn{
+    width: 116px;
+    height: 25px;
+    background: #f57070;
+    border-radius: 13px;
+    color: white;
+    margin: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+  
+}
+.button{
+    margin-left: 100px;
+}
+
